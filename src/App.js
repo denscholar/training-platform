@@ -1,9 +1,10 @@
 import './App.css';
+import AppBar from './components/AppBar/AppBar';
 
 function App() {
   return (
     <div className="App">
-     <h2>o world</h2>
+      <AppBar />
     </div>
   );
 }

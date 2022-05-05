@@ -1,0 +1,85 @@
+.header-mobile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    background: #1F2022;
+    padding: 1.5em;
+    position: relative;
+    height: 20px;
+    top: o;
+    right: 0;
+}
+
+.header-mobile .close-icon{
+    position: absolute;
+    right: 25px;
+    top: 15px;
+    color: white;
+    font-size: 30px;
+}
+
+.toggle-icon .MuiSvgIcon-root{
+    color: white;
+    font-size: 2.5em;
+}
+
+.logo{
+    color: white;
+}
+
+.nav-link{
+    display: none;
+}
+.open-nav{
+    display: flex;
+    height: 300vw;
+    width: 70%;
+    background: rgb(37, 37, 37);
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+.open-nav ul{
+    padding: 0;
+}
+.open-nav .sub-courses{
+    display: none;
+}
+
+.open-nav .show-subCourses{
+    display: block;
+    flex-direction: column;
+}
+
+.open-nav .link{
+    border-bottom: 1px solid white;
+    padding: 1.5em;
+    font-size: 18px;
+}
+
+.open-nav .mobile-link{
+    width: 100%;
+}
+
+.link-course{
+    align-items: center;
+    align-content: center;
+    border-bottom: 1px solid white;
+    font-size: 18px;
+}
+
+.open-nav .link-course p{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+}
+
+.open-nav li{
+    list-style: none;
+    color: white;
+    padding: 10px 0;
+}
