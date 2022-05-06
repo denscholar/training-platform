@@ -6,7 +6,7 @@
     background: #1F2022;
     padding: 1.5em;
     position: relative;
-    height: 20px;
+    height: 5em;
     top: o;
     right: 0;
 }
@@ -33,12 +33,14 @@
 }
 .open-nav{
     display: flex;
+    padding: 3em 0;
     height: 300vw;
-    width: 70%;
+    width: 80%;
     background: rgb(37, 37, 37);
     position: fixed;
     right: 0;
     top: 0;
+    z-index: 1;
 }
 
 .open-nav ul{
@@ -55,7 +57,7 @@
 
 .open-nav .link{
     border-bottom: 1px solid white;
-    padding: 1.5em;
+    padding: 0.8em 1.5em;
     font-size: 18px;
 }
 

@@ -1,0 +1,57 @@
+.icon_section{
+    padding: 0.5em 1.5em;
+    background: white;
+}
+
+.icon_section h3{
+    text-align: center;
+    padding-top: 1.5em;
+    font-size: 1.5em;
+    max-width: 600px;
+    position: relative;
+
+}
+
+.icon_section h3:before{
+    content: "";
+    position: absolute;
+    display: block;
+    background-color: black;
+    height: 2px;
+    width: 30px;
+    top: 80%;
+    right: 0;
+    padding-right: 10px;
+}
+
+.icon_section h3:after{
+    content: "";
+    position: absolute;
+    display: block;
+    background-color: black;
+    height: 2px;
+    width: 30px;
+    top: 80%;
+    left: 0;
+    padding-left: 10px;
+}
+
+.icon_section .image-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin: 2em 0;
+}
+
+.icon_section .image-content img{
+    width: 40%;
+    height: 40%;
+}
+
+.icon_section .image-content p{
+    text-align: center;
+    font-size: 18px;
+    padding: 1em 0;
+}

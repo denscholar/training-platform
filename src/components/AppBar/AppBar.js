@@ -8,11 +8,6 @@ const AppBar = () => {
     const [isToggle, setIsToggle] = useState(false);
     const [isCourse, setIsCourse] = useState(false);
 
-    // const toggleClick = ()=>{
-    //     console.log('hello world');
-    // }
-
-
     return (
         <div>
             <div className="header-mobile">
