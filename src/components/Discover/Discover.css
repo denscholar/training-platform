@@ -1,0 +1,30 @@
+.discover-container{
+    padding: 2.5em 1.5em;
+    background: #505170;
+}
+
+.discover-container .title{
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+    padding: 0.5em 0;
+}
+
+
+@media screen and (min-width: 768px){
+    .discover-container{
+        padding: 3em 10em 3em 15em;
+    }
+
+    .discover-flex{
+        display: flex;
+        justify-content: center;
+        gap: 5em;
+    }
+
+    .discover-container .title{
+        font-size: 30px;
+        margin: 0;
+    }
+
+}

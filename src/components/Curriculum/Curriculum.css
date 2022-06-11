@@ -1,0 +1,56 @@
+#curriculum{
+    padding: 2.5em 1.5em;
+    background: #F3F3F5;
+}
+
+#curriculum .course-title{
+    font-size: 20px;
+    padding: 5px 0;
+    
+}
+
+#curriculum .course-heading{
+    font-size: 15px;
+    text-align: left;
+    font-weight: 500;
+    padding: 5px 0;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+#curriculum .course-content{
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    line-height: 25px;
+    color: #333333;;
+}
+
+@media screen and (min-width: 768px){
+    #curriculum{
+        padding: 5em 10em 5em 18em;
+    }
+    #curriculum .course-heading{
+        font-size: 15px;
+        text-align: left;
+        /* padding: 0 14em 0 18em; */
+        /* padding: 0 14em; */
+        font-weight: 700;
+    }
+
+    #curriculum .course-title{
+        /* padding: 0 6.5em; */
+        text-align: left;
+        font-size: 2em;
+    
+    }
+
+    #curriculum .course-content{
+        font-size: 16px;
+        /* padding: 0 13em; */
+        padding-bottom: 20px;
+        line-height: 25px;
+    }
+
+    
+}
