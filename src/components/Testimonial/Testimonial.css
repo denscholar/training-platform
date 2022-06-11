@@ -1,0 +1,16 @@
+.textimonials-control{
+    height: 25em;
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    border-top-right-radius: 30em;
+}
+
+.textimonials-control h2{
+    margin-top: 2em;
+    padding-top: 1.5em;
+    color: #333333;
+}
+
+button.slick-arrow.slick-next{
+    display: none;
+}

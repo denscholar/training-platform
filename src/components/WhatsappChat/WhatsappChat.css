@@ -1,0 +1,24 @@
+.whatsapp-icon{
+    position: fixed;
+    right: 10px;
+    bottom: 0;
+}
+
+.whatsapp-icon img{
+    width: 50px;
+
+}
+
+@media screen and (min-width: 768px){
+    .whatsapp-icon{
+        right: 30px;
+        bottom: 20px;
+    }
+
+    .whatsapp-icon img{
+        min-width: 4rem;
+    
+    }
+    
+}
+

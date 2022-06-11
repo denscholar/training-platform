@@ -1,0 +1,57 @@
+.curriculum-wrapper{
+    margin-bottom: 0.5em;
+}
+
+.curriculum-wrapper .curriculum-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: white;
+    padding: 20px;
+}
+
+.curriculum-wrapper h2{
+    text-align: center;
+    margin: 0.5em 0;
+    padding: 2em 0 0.5em 0;
+}
+
+.curriculum-wrapper .curriculum-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 0.5em 0 1.5em 0;
+}
+
+.curriculum-wrapper .curriculum-title h3{
+    font-size: 17px;
+    line-height: 22px;
+    color: #333333;
+}
+
+.curriculum-wrapper .curriculum-title .icon{
+    font-size: 2em;
+    transition: transform ease 0.3s;
+}
+
+.curriculum-wrapper .curriculum-title .icon-rotate{
+    transform: rotate(180deg);
+    transition: transform ease 0.3s;
+}
+
+.curriculum-card .curriculum-content{
+    height: 0;
+    overflow: hidden;
+    transition: height ease 0.3s;
+}
+
+
+@media screen and (min-width: 768px){
+    .curriculum-wrapper{
+        /* margin: 0.5em 13em; */
+    }
+
+    .curriculum-wrapper .curriculum-title h3{
+        font-size: 20px;
+    }
+    
+}

@@ -1,40 +1,45 @@
 .icon_section{
     padding: 0.5em 1.5em;
-    background: white;
+    background: #F3F3F5;
 }
 
-.icon_section h3{
+#overview .heading{
+    font-size: 15px;
+    text-align: left;
+    font-weight: 500;
+    padding: 5px 0;
+}
+
+#overview h2{
+    font-size: 20px;
+}
+
+#overview p{
+    font-size: 16px;
+    padding: 10px 0 ;
+    line-height: 25px;
+}
+.icon_section .heading{
     text-align: center;
     color: #333333;
     padding-top: 1.5em;
     font-size: 1.5em;
-    max-width: 600px;
+    max-width: 100%;
     position: relative;
 
 }
 
-.icon_section h3::before{
-    content: "";
-    position: absolute;
-    display: block;
-    background-color: #333333;
-    height: 2px;
-    width: 30px;
-    top: 80%;
-    right: 0;
-    padding-right: 10px;
-}
-
-.icon_section h3::after{
-    content: "";
-    position: absolute;
-    display: block;
-    background-color: #333333;
-    height: 2px;
-    width: 30px;
-    top: 80%;
-    left: 0;
-    padding-left: 10px;
+.icon_section .underline{
+    height: 5px;
+    width: 4em;
+    border-radius: 8px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    background: red;
+    border: none;
+    color: red;
+    padding: 3px;
 }
 
 .icon_section .image-content{
@@ -47,12 +52,54 @@
 }
 
 .icon_section .image-content img{
-    width: 40%;
-    height: 40%;
+    width: 35%;
+    height: 35%;
 }
 
 .icon_section .image-content p{
     text-align: center;
     font-size: 18px;
     padding: 1em 0;
+}
+
+@media screen and (min-width: 768px) {
+
+    .icon_section{
+        padding: 3em 10em 2em 18em;
+        /* height: 55vh; */
+    }
+
+    #overview .heading{
+        font-size: 15px;
+        text-align: left;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    
+    #overview h2{
+        font-size: 2em;
+        text-align: left;
+        
+    }
+    
+    #overview p{
+        font-size: 16px;
+        padding: 10px 0 ;
+        line-height: 25px;
+        color: #333333;
+    }
+
+    .icon-section-flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        gap: 100px;
+        height: 25em;
+    }
+
+    .icon_section .heading{
+        text-align: center;
+    }
+    
 }

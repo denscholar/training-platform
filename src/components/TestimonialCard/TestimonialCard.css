@@ -1,0 +1,51 @@
+.testimonai-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+.testimonai-card .circularImage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.testimonai-card .circular{
+    position: absolute;
+    top: 20px;
+    border-radius: 50%;
+    border: 8px solid #fff;
+}
+
+.testimonai-card .text-container{
+    background: pink;
+    padding: 1em;
+    margin-top: 5em;
+    border-radius: 2em;
+    height: 15em;
+    width: 19em;
+}
+
+.testimonai-card .text{
+   text-align: center;
+   margin-top: 2.5em;
+   color: #333333;
+   font-size: 15px;
+}
+
+@media screen and (min-width: 768px){
+    .testimonai-card .text-container{
+        /* width: 20em; */
+    }
+    
+}
+
+@media screen and (min-width: 650px){
+    .testimonai-card .text-container{
+        width: 18em;
+    }
+    
+}

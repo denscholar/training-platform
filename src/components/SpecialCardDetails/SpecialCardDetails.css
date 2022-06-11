@@ -1,0 +1,89 @@
+.wrapper{
+    border-radius: 8px;
+    min-height: 20vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 1em 0;
+    background: white;
+    width: 100%;
+    transition: transform .2s;
+}
+
+.wrapper:hover{
+    transform: scale(1.02);
+}
+
+.wrapper .top-div{
+    padding: 30px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.wrapper .top-div h2{
+    font-size: 22px;
+    text-align: center;
+}
+
+.wrapper .top-div h3{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.wrapper .section-div{
+    padding: 18px 0;
+    
+}
+
+.section-div .section-wrapper .single{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    padding: 10px 30px;
+}
+
+.section-div hr{
+    margin: 20px 30px;
+}
+
+.single .card-flex2 h2{
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+
+.section-wrapper .date{
+    padding: 0 35px;
+    color: rgb(187, 185, 185);
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+.single .card-flex3 p{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-content: center;
+    color: #A7B1E1;
+}
+
+@media screen and (min-width: 768px){
+    .wrapper{
+        /* width: 100%; */
+    }
+
+    .wrapper .top-div h2{
+        font-size: 30px;
+    }
+
+    .wrapper .top-div h3{
+        font-size: 17px;
+        font-weight: 300;
+    }
+
+    .single .card-flex2 h2{
+        font-size: 18px;
+    }
+    
+}
