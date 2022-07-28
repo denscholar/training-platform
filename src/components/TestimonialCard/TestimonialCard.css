@@ -4,6 +4,9 @@
     align-items: center;
     align-content: center;
     flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    
 }
 .testimonai-card .circularImage{
     display: flex;
@@ -11,22 +14,30 @@
     justify-content: center;
     align-items: center;
     align-content: center;
+    width: 100%;
+    
+}
+
+.slick-next{
+    display: none !important;
 }
 
 .testimonai-card .circular{
     position: absolute;
     top: 20px;
     border-radius: 50%;
-    border: 8px solid #fff;
+    border: 8px solid white;
 }
 
 .testimonai-card .text-container{
-    background: pink;
-    padding: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* background: pink; */
+    background: white;
+    padding: 1em 1em;
     margin-top: 5em;
     border-radius: 2em;
-    height: 15em;
-    width: 19em;
+    height: 18em;
+    margin-bottom: 1.5em;
 }
 
 .testimonai-card .text{
@@ -43,9 +54,9 @@
     
 }
 
-@media screen and (min-width: 650px){
+@media screen and (min-width: 800px){
     .testimonai-card .text-container{
-        width: 18em;
+        width: 16em;
     }
     
 }

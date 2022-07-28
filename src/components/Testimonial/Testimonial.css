@@ -2,15 +2,39 @@
     height: 25em;
     text-align: center;
     background-color: rgb(245, 245, 245);
-    border-top-right-radius: 30em;
 }
 
 .textimonials-control h2{
-    margin-top: 2em;
     padding-top: 1.5em;
     color: #333333;
 }
 
-button.slick-arrow.slick-next{
-    display: none;
+.textimonials-control p{
+    padding: 0 0.5rem;
 }
+
+
+@media (min-width: 800px) {
+    .textimonials-control{
+        overflow-y: hidden;
+        height: 100vh;
+    }
+    .textimonials-control .slick-slider{
+        width: 55rem;
+        margin: 0 auto;
+    }
+
+    .textimonials-control h2{
+        padding: 2em 0 0 0;
+        color: #333333;
+        font-size: 2rem;
+    }
+
+    .textimonials-control p{
+        margin: 0.5rem 0 2.5rem 0;
+        color: #333333;
+        font-size: 1.1rem;
+    }
+    
+    
+  }

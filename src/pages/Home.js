@@ -8,7 +8,8 @@ import Curriculum from '../components/Curriculum/Curriculum';
 import Button from '../components/Button/Button';
 import { Link } from 'react-scroll';
 import { Banner } from '../components/Banner/Banner';
-import WhatsAppChat from '../components/WhatsappChat/WhatsappChat'
+import WhatsAppChat from '../components/WhatsappChat/WhatsappChat';
+import Testimonial from '../components/Testimonial/Testimonial';
 // import Form from '../components/FormModal/ModalForm';
 import './Home.css';
 
@@ -27,6 +28,7 @@ const Home = ({ handleClick }) => {
           <li className={isActive ? 'active' : ''}><Link to="question" spy={true} smooth={true} offset={-50} duration={500}>Discover</Link></li>
           <li className={isActive ? 'active' : ''}><Link to="curriculum" spy={true} smooth={true} offset={-50} duration={500}>Curriculum</Link></li>
           <li className={isActive ? 'active' : ''}><Link to="Application Process" spy={true} smooth={true} offset={-50} duration={500}>Application Process</Link></li>
+          <li className={isActive ? 'active' : ''}><Link to="testimonial" spy={true} smooth={true} offset={-50} duration={500}>Testimonials</Link></li>
           <li><Button
           text={'Apply Now'}
           bgColor={'#05A8DF'}
@@ -51,6 +53,7 @@ const Home = ({ handleClick }) => {
       <Questions />
       <Curriculum/>
       <Application />
+      <Testimonial/>
       <WhatsAppChat/>
       {/* {showForm && <Form closeModal={setShowForm} />} */}
 

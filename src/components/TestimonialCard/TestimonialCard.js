@@ -10,7 +10,7 @@ const TestimonialCard = ({ src, text, alt, width, height }) => {
                     className='circular'
                     sx={{ width: width, height: height }}
                     src={src}
-                    alt={src}
+                    alt={alt}
                 />
                 <div className="text-container">
                     <p className="text">{text}</p>
