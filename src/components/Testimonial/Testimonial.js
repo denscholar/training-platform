@@ -2,7 +2,8 @@ import React from 'react';
 import './Testimonial.css';
 import TestimonialCard from '../TestimonialCard/TestimonialCard';
 import Slider from "react-slick";
-import ImageView from '../../assets/image-view.jpg'
+import ImageView from '../../assets/image-view.jpg';
+
 
 const Testimonial = () => {
     const settings = {
@@ -10,7 +11,7 @@ const Testimonial = () => {
         autoplay: true,
         speed: 500,
         slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToScroll: 1,
         autoplaySpeed: 5000,
         // cssEase: "linear",
         initialSlide: 0,
@@ -42,12 +43,13 @@ const Testimonial = () => {
           ]
     }
     return (
-        <div className='textimonials-control' id='test2'>
+        <div className='textimonials-control' id='testimonial'>
             <h2>Testimonials</h2>
+            <p>See how our students are reshaping their lives by learning with us</p>
             <Slider {...settings}>
                 <div className='sliders-control'>
                     <TestimonialCard
-                        text={'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis aspernatur quasi architecto in expedita, doloribus labore distinctio maiores aut laboriosam quos similique molestiae eum officiis.'}
+                        text={'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis aspernatur quasi architecto in expedita, doloribus labore distinctio maiores aut .'}
                         src={ImageView}
                         alt={ImageView}
                         width={100}

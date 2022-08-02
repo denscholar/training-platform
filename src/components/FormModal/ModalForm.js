@@ -104,6 +104,7 @@ const ModalForm = ({ closeModal }) => {
                                     onChange={setValue} />
 
                                 <input
+                                    type="number"
                                     id="state"
                                     value={amount}
                                     placeholder="Amount to Pay"

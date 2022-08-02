@@ -1,7 +1,8 @@
-import React, { useState, useRef } from 'react'
+import React, { useState, useRef } from 'react';
+// import FirstComponent from '../../components/Firstcomponent/FirstComponent';
 import './CurriculumCard.css'
 
-const CurriculumCard = ({ Icon, title, content, id }) => {
+const CurriculumCard = ({ Icon, title, component, id }) => {
     const [rotate, setIsRotate] = useState(false);
 
     const parentRef = useRef();
@@ -21,7 +22,8 @@ const CurriculumCard = ({ Icon, title, content, id }) => {
                 } : {
                     height: '0px'
                 }}>
-                    <p className="content">{content}</p>
+                    {/* <div className="content">{content}</div> */}
+                    {component}
                 </div>
             </div>
         </div>

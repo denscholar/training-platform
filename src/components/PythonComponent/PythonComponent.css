@@ -1,0 +1,25 @@
+.python-content h2{
+    text-align: left;
+    margin: 0.5rem 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 17px;
+    color: rgb(37, 37, 37);
+}
+
+.python-content .module .module-item li{
+    list-style-type: circle;
+    color: rgb(37, 37, 37);
+
+}
+
+.python-content p{
+    font-size: 1rem;
+}
+
+@media screen and (min-width: 1200px) {
+    .module{
+        display: flex;
+        justify-content: flex-start;
+    }
+}

@@ -22,8 +22,16 @@
 
 .logo span{
     color: #05AAE1;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bolder;
+}
+
+.logo img{
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding-top: 1rem;
 }
 .header-desktop{
     display: none;
@@ -45,11 +53,20 @@
 .logo{
     color: white;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.logo .MuiSvgIcon-root{
+    position: absolute;
+    right: 20px;
+    font-size: 2.5rem;
 }
 
 .nav-link{
     display: none;
 }
+
 .open-nav{
     display: flex;
     padding: 3em 0;
@@ -111,6 +128,10 @@
         padding: 0 3em;
     }
 
+    .logo .MuiSvgIcon-root{
+        display: none;
+    }
+
     .mobile-nav{
         display: none;
     }
@@ -131,6 +152,7 @@
         color: white;
         cursor: pointer;
     }
+
 
     .dropdown .link, .course-list{
         display: flex;
@@ -158,6 +180,7 @@
         top: 2em;
         z-index: 1;
         border-radius: 8px;
+        padding: 0;
       }
 
       .dropdown-content .drop-link {
