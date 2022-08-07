@@ -2,7 +2,7 @@ import React from 'react';
 import { MenuOutlined, ArrowDropDownOutlined, CloseOutlined } from '@mui/icons-material';
 import Button from '../Button/Button';
 import { Link } from 'react-scroll';
-import logo from '../../assets/logo_transparent.png';
+import logo from '../../assets/logo-web.png';
 import { useState } from 'react';
 import './AppBar.css';
 
