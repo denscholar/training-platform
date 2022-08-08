@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
-// import Hero from '../components/Hero/Hero';
 import IconsSection from '../components/IconsSection/IconsSection';
-// import Discover from '../components/Discover/Discover';
 import Questions from '../components/Questions/Questions';
 import Application from '../components/Application/Application';
 import Curriculum from '../components/Curriculum/Curriculum';
@@ -10,11 +8,9 @@ import { Link } from 'react-scroll';
 import { Banner } from '../components/Banner/Banner';
 import WhatsAppChat from '../components/WhatsappChat/WhatsappChat';
 import Testimonial from '../components/Testimonial/Testimonial';
-// import Form from '../components/FormModal/ModalForm';
 import './Home.css';
 
 const Home = ({ handleClick }) => {
-  // const [showForm, setShowForm] = useState(false)
   const [isActive, setIsActive] = useState(false);
   const setToActiveState = () =>{
     setIsActive(true)
@@ -42,9 +38,9 @@ const Home = ({ handleClick }) => {
       <div className='bottom-floating-bar'>
         <div className="text">
           <p>Enroll by</p>
-          <h2>June 15</h2>
+          <h2>Auguste 27</h2>
           <p>to start class on</p>
-          <h2>June 20</h2>
+          <h2>August 29</h2>
         </div>
       </div>
       <IconsSection />
@@ -55,8 +51,6 @@ const Home = ({ handleClick }) => {
       <Application />
       <Testimonial/>
       <WhatsAppChat/>
-      {/* {showForm && <Form closeModal={setShowForm} />} */}
-
     </div>
   )
 }

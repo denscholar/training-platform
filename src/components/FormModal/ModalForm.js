@@ -21,7 +21,7 @@ const ModalForm = ({ closeModal }) => {
         e.preventDefault();
         const payStack = new PaystackPop();
         payStack.newTransaction({
-            key: 'pk_test_a761bd4a0ca0a31b4f11c855f0769134276c8fec',
+            key: process.env.REACT_APP_PAYSTACK_KEY,
             amount: amount * 100,
             email: email,
             firstName: firstName,

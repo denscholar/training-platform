@@ -1,5 +1,7 @@
+
+
 .textimonials-control{
-    height: 25em;
+    height: 100%;
     text-align: center;
     background-color: rgb(245, 245, 245);
 }
@@ -17,7 +19,7 @@
 @media (min-width: 800px) {
     .textimonials-control{
         overflow-y: hidden;
-        height: 100vh;
+        height: 100%;
     }
     .textimonials-control .slick-slider{
         width: 55rem;
@@ -35,6 +37,5 @@
         color: #333333;
         font-size: 1.1rem;
     }
-    
     
   }

@@ -2,7 +2,7 @@ import React from 'react';
 import { MenuOutlined, ArrowDropDownOutlined, CloseOutlined } from '@mui/icons-material';
 import Button from '../Button/Button';
 import { Link } from 'react-scroll';
-import logo from '../../assets/logo_transparent.png';
+import logo from '../../assets/logo-web.png';
 import { useState } from 'react';
 import './AppBar.css';
 
@@ -14,7 +14,7 @@ const AppBar = ({handleClick}) => {
         <div>
             <div className="header">
                 <div className="logo" id='logo'>
-                    <Link to="home" spy={true} smooth={true} offset={-50} duration={500}><img src={logo} alt="logo" /></Link>
+                    <Link to="home" spy={true} smooth={true} offset={-50} duration={500}>Dimmandys<span>Tech</span></Link>
                     <MenuOutlined onClick={() => setIsToggle(!isToggle)} />
                 </div>
                 <div>
