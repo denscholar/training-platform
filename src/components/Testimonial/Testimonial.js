@@ -2,7 +2,8 @@ import React from 'react';
 import './Testimonial.css';
 import TestimonialCard from '../TestimonialCard/TestimonialCard';
 import Slider from "react-slick";
-import ImageView from '../../assets/image-view.jpg';
+import ImageView from '../../assets/testimonia1.jpg';
+import Footer from '../Footer/Footer'
 
 
 const Testimonial = () => {
@@ -49,7 +50,7 @@ const Testimonial = () => {
             <Slider {...settings}>
                 <div className='sliders-control'>
                     <TestimonialCard
-                        text={'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis aspernatur quasi architecto in expedita, doloribus labore distinctio maiores aut .'}
+                        text={'I was privileged to be part of the Beginners Class of Dimmandystech in 2021. The class was concise,easy to comprehend and very detailed for a beginner. You also can also have such experience. - Olusola Y'}
                         src={ImageView}
                         alt={ImageView}
                         width={100}
@@ -102,6 +103,7 @@ const Testimonial = () => {
                     />
                 </div>
             </Slider>
+            <Footer/>
         </div>
     )
 }

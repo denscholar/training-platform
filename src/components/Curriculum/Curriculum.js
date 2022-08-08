@@ -5,6 +5,9 @@ import './Curriculum.css';
 import PythonComponent from '../PythonComponent/PythonComponent';
 import DataAnalystComponent from '../DataAnalystComponent/DataAnalystComponent';
 import SqlComponent from '../SqlComponent/SqlComponent';
+import PowerBi from '../PowerBi/PowerBi';
+import Tableau from '../Tableau/Tableau';
+import Excel from '../Excel/Excel';
 
 const Curriculum = () => {
     return (
@@ -33,22 +36,25 @@ const Curriculum = () => {
             />
 
             <CurriculumCard
+                component={<PowerBi />}
                 id={'power bi'}
                 title={'Power BI'}
                 Icon={KeyboardArrowDownOutlined}
-            // content={'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, quod voluptate minima consequatur tempora perferendis inventore quasi officia distinctio suscipit error sunt repellendus ut maiores odio esse accusamus quaerat, quisquam veritatis enim ipsam soluta velit possimus! Facere, ut error earum culpa assumenda dignissimos porro nisi similique. Quas assumenda optio voluptates.'}
+
             />
             <CurriculumCard
+                component={<Tableau />}
                 id={'tableau'}
                 title={'Tableau'}
                 Icon={KeyboardArrowDownOutlined}
-            // content={'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, quod voluptate minima consequatur tempora perferendis inventore quasi officia distinctio suscipit error sunt repellendus ut maiores odio esse accusamus quaerat, quisquam veritatis enim ipsam soluta velit possimus! Facere, ut error earum culpa assumenda dignissimos porro nisi similique. Quas assumenda optio voluptates.'}
+
             />
             <CurriculumCard
+                component={<Excel />}
                 id={'excel'}
                 title={'Data Analysis with Excel'}
                 Icon={KeyboardArrowDownOutlined}
-            // content={'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, quod voluptate minima consequatur tempora perferendis inventore quasi officia distinctio suscipit error sunt repellendus ut maiores odio esse accusamus quaerat, quisquam veritatis enim ipsam soluta velit possimus! Facere, ut error earum culpa assumenda dignissimos porro nisi similique. Quas assumenda optio voluptates.'}
+
             />
 
 

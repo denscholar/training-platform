@@ -30,7 +30,7 @@
         min-width: 14%;
         height: 25vh;
         position: fixed;
-        bottom: 1.5rem;
+        bottom: 0;
         left: 3.5em;
         display: block;
         z-index: 1;

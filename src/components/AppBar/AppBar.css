@@ -14,7 +14,7 @@
 
 .logo a{
     font-weight: 600;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bolder;
     text-decoration: none;
     color: whitesmoke;
@@ -22,7 +22,7 @@
 
 .logo span{
     color: #05AAE1;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bolder;
 }
 
@@ -201,5 +201,14 @@
         .dropbtn:hover .dropdown-content {
             display: block;
         }
+
+        .logo a{
+            font-size: 30px;
+        }
+        
+        .logo span{
+            font-size: 30px;
+        }
+        
 
 }

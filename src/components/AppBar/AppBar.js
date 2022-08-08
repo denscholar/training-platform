@@ -14,7 +14,7 @@ const AppBar = ({handleClick}) => {
         <div>
             <div className="header">
                 <div className="logo" id='logo'>
-                    <Link to="home" spy={true} smooth={true} offset={-50} duration={500}><img src={logo} alt="logo" /></Link>
+                    <Link to="home" spy={true} smooth={true} offset={-50} duration={500}>Dimmandys<span>Tech</span></Link>
                     <MenuOutlined onClick={() => setIsToggle(!isToggle)} />
                 </div>
                 <div>
