@@ -34,7 +34,7 @@ const ModalForm = ({ closeModal }) => {
                 closeModal(false);
             },
             onCancel() {
-                alert('You have not initiated any transaction')
+                alert("You haven't registered for the training")
             }
         })
     }
@@ -91,8 +91,8 @@ const ModalForm = ({ closeModal }) => {
                                 <select value={course} onChange={(e) => setCourse(e.target.value)}>
                                     <option value='Select Category'>Select Category</option>
                                     <option value='Python(Part-Time)'>Python(Part-Time) - N20,000</option>
-                                    <option value='Data Analyst'>Data Analyst(Part-Time) - N35,000</option>
-                                    <option value='Data Analyst (Full Time)'>Data Analyst(Full-Time) - N50,000</option>
+                                    <option value='Data Analyst'>Data Analytics(Part-Time) - N20,000</option>
+                                    <option value='Data Analyst (Full Time)'>Data Analyst(Full-Time) - N100,000</option>
                                     <option value='SQL'>SQL - N20,000</option>
                                 </select>
                             </div>
